@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p id="heading">RAJAT <span>TIMER</span></p>
+    <div class="timer">
+        <div class="hour">
+            <button id="hincrease">+</button>
+            <p id="hours"></p>
+            <button id="hdecrease">-</button>
+            <span class="label">H</span>
+        </div>
+        <p class="colon">:</p>
+        <div class="minute">
+            <button id="mincrease">+</button>
+            <p id="minutes"></p>
+            <button id="mdecrease">-</button>
+            <span class="label">M</span>
+        </div>
+        <p class="colon">:</p>
+        <div class="second">
+            <button id="sincrease">+</button>
+            <p id="seconds"></p>
+            <button id="sdecrease">-</button>
+            <span class="label">S</span>
+        </div><br><br>
+    </div>
+
+    <div class="buttons">
+        <button id="startbtn">START</button>
+        <button id="resetbtn">RESET</button>
+    </div>
+    <p id="msg"></p>
+</body>
+<script src="logic.js"></script>
+
+</html>
