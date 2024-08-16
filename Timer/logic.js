@@ -13,7 +13,7 @@ let s = document.querySelector("#seconds");
 let hrr = 0;
 let min = 0;
 let sec = 0;
-const timeup = new Audio("timer.mp3");
+const timeup = new Audio("Timer/timer.mp3");
 let auto;
 
 document.addEventListener("DOMContentLoaded", () => {
