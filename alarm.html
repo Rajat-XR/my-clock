@@ -15,6 +15,35 @@
         <a href="timer.html" class="tool">Timer</a>
         <a href="stopwatch.html" class="tool">Stopwatch</a>
     </div>
+
+    <h1>RAJAT <span>ALARM</span></h1>
+    <div class="alarm">
+        <div class="input">
+            <label for="date">Date: </label>
+            <input type="date" id="date"><br>
+            <label for="time">Time: </label>
+            <input type="time" id="time">
+        </div>
+
+
+        <div class="tone">
+            <label for="tone">Choose Alarm Tone:</label>
+            <select id="tone">
+                <option value="Alarm\\Mahadev.mp3">Alarm 01</option>
+                <option value="Alarm\\animal.mp3">Alarm 02</option>
+                <option value="Alarm\\soft.mp3">Alarm 03</option>
+                <option value="Alarm\\friend.mp3">Alarm 04</option>
+            </select>
+        </div>
+
+
+        <div class="buttons">
+            <button id="set_again">Set Again</button>
+            <button id="set">Set Alarm</button>
+        </div>
+        <p id="msg"></p>
+    </div>
 </body>
 <script src="Alarm/logic.js"></script>
+
 </html>
