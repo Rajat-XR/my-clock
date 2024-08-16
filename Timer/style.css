@@ -138,6 +138,7 @@ p {
 #msg {
     font-family: "Tiny5";
     font-size: 2em;
+    margin-bottom: 0; 
 }
 
 .label {
