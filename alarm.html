@@ -19,22 +19,36 @@
     <h1>RAJAT <span>ALARM</span></h1>
     <div class="alarm">
         <div class="input">
-            <label for="date">Date: </label>
-            <input type="date" id="date"><br>
-            <label for="time">Time: </label>
-            <input type="time" id="time">
+            <div class="time_input">
+                <label for="time" id="label_time">Time: </label>
+                <input type="time" id="time">
+            </div>
+            <div class="date_input">
+                <label for="date" id="label_date">Date: </label>
+                <input type="date" id="date"><br>
+            </div>
         </div>
 
 
         <div class="tone">
-            <label for="tone">Choose Alarm Tone:</label>
+            <label for="tone">Alarm Tone:</label>
             <select id="tone">
-                <option value="Alarm/Mahadev.mp3">Alarm 01</option>
-                <option value="Alarm/animal.mp3">Alarm 02</option>
-                <option value="Alarm/soft.mp3">Alarm 03</option>
-                <option value="Alarm/friend.mp3">Alarm 04</option>
+                <option value="Alarm\Tones\Morning Flower.mp3">Morning Flower</option>
+                <option value="Alarm\Tones\Cosmic Lullaby.mp3">Cosmic Lullaby</option>
+                <option value="Alarm\Tones\Retro Rumble.mp3">Retro Rumble</option>
+                <option value="Alarm\Tones\Morning Snuggle.mp3">Morning Snuggle</option>
+                <option value="Alarm\Tones\Tick Tock.mp3">Tick Tock</option>
+                <option value="Alarm\Tones\Pixelated Party.mp3">Pixelated Party</option>
+                <option value="Alarm\Tones\Loud 01.mp3">Loud 01</option>
+                <option value="Alarm\Tones\Loud 02.mp3">Loud 02</option>
             </select>
+
+            <div id="name">
+                <label>Alarm Name: </label>
+                <input id="alarm_name" type="text" placeholder="Add Alarm Label">
+            </div>
         </div>
+
 
 
         <div class="buttons">
@@ -42,6 +56,7 @@
             <button id="set">Set Alarm</button>
         </div>
         <p id="msg"></p>
+        <progress></progress>
     </div>
 </body>
 <script src="Alarm/logic.js"></script>
