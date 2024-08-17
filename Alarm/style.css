@@ -75,7 +75,8 @@ input {
     font-size: 0.7em;
     padding: 1em;
     border-radius: 1.2em;
-    border: none;
+    border: var(--my_dark) solid 2px;
+    background-color: white;
 }
 
 
