@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --my_lite: antiquewhite;
+    --my_dark: rgb(90, 58, 58);
+}
+
+body {
+    background-color: var(--my_lite);
+    margin: 0;
+    font-family: "Poppins";
+}
+
+.tools {
+    display: flex;
+
+}
+
+.tool {
+    background-color: var(--my_dark);
+    text-decoration: none;
+    color: var(--my_lite);
+    flex-grow: 1;
+    text-align: center;
+    padding: 0.8em;
+    font-size: 1.2em;
+    border: 1px black solid;
+    font-family: "Tiny5";
+}
+
+h1 {
+    margin-bottom: 1em;
+    color: rgb(86, 36, 133);
+    font-size: 3em;
+    margin-top: 1.8em;
+    font-weight: 800;
+    font-family: "Tiny5";
+    text-align: center;
+}
+
+span {
+    color: var(--my_dark);
+}
+
+label {
+    font-size: 1.65em;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+#label_time,
+#label_date {
+    font-size: 1.5em;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+}
+
+.date_input,
+.time_input {
+    display: flex;
+    gap: 0.7em;
+    align-items: center;
+    justify-items: center;
+    font-size: 1.2em;
+}
+
+input {
+    font-size: 1.2em;
+    padding: 1em;
+    border-radius: 1.2em;
+    border: none;
+}
+
+
+#date {
+    margin-bottom: 1em;
+}
+
+.alarm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2em;
+}
+
+.tone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7em;
+    flex-wrap: wrap;
+}
+
+#name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7em;
+}
+
+#alarm_name {
+    width: 10em;
+    font-size: 1em;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.buttons {
+    display: flex;
+    gap: 1em;
+}
+
+button,
+select {
+    padding: 1em 1.2em;
+    border-radius: 2em;
+    border: none;
+    background-color: var(--my_dark);
+    color: var(--my_lite);
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+button {
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+#msg {
+    font-size: 2em;
+    font-family: "Poppins";
+    font-weight: 800;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+progress {
+    height: 2em
+}
